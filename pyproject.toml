@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pc-cat"
+version = "1"
+description = "1"
+authors = ["grenui92"]
+license = "a"
+readme = "README.md"
+packages = [{include = "pc_cat"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
